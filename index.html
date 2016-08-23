@@ -123,8 +123,8 @@
 					<h2>Zotero as a File Management Tool</h2>
 					
 					<ol>
-						<li><a href="http://zotero.org/">Zotero</a> is normally used as a bibliographic management tool.</li>
-						<li>But...elements in a Zotero library can be annotated with tags and text notes.</li>
+						<li><a href="http://zotero.org/">Zotero</a> is normally used as a bibliographic management tool.</li><br/>
+						<li>But...elements in a Zotero library can be annotated with tags and text notes.</li><br/>
 						<li>Zotero will also store links to files, either as a standalone library entry, or as a child element linked to a bibliographic record.</li>
 					</ol>
 
@@ -182,10 +182,28 @@
 						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
 					</aside>
 				</section>
+					
+				<section>			
+					<h2 align="left">Project Management with the  <img src="imgs/osf-logo.png" width="10%" height="10%"> <br/>Open Science Framework</h2>
+
+					<ul>
+						<li><span style="color: #63d297;">Wiki</span>: document your lab procedures, standards, etc. </li>
+						<li><span style="color: #63d297;">Collaborators</span>: add collaborators of various levels to different parts of your project</li>
+						<li><span style="color: #63d297;">Components</span>: sub-projects to organize different parts of your research</li>
+						<li><span style="color: #63d297;">Version Control</span>: upload files of the same name & OSF will track your versions! </li>
+						<li><span style="color: #63d297;">Add-Ons</span>: use OSF to bring together tools you use | <a href="https://github.com/ViDA-NYU/reproducibility-news/commit/c13a87dc56e13ba0a80d5988129fad5fbf08e04f">GitHub</a></li>
+						<li><span style="color: #63d297;">Registrations</span>: when you have an unchanging version of your project, register it & get a DOI!</li>
+					</ul>
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+					
 				</section>
 				
 				<section>
-				
 				<section>			
 					<h2>Managing Files 1: Bulk File Renaming (Windows)</h2>
 					
@@ -221,7 +239,7 @@
 				</section>
 					
 				<section>			
-					<h2>Managing Files 1: Bulk File Renaming (Mac OSX)</h2>
+					<h2>Managing Files 1: Bulk File Renaming (Mac)</h2>
 					
 					<ol>
 						<li>Download the file_rename_MAC script in the directory of files you wish rename. You may wish to try it on these <a href="https://osf.io/zk9a3/">sample files</a>.</li>
@@ -236,27 +254,134 @@
 					</aside>
 				</section>
 					
-				</section>
-				
+				<section>			
+					<h2>Managing Files 2: Making a README</h2>
+					
+					<p>What is a readme file? A readme file is a .txt, .xml., or .html file that lives in a directory and explains the context and uses of each files in that same directory.</p>
+					
+					<img src="imgs/htmlREADME.png">
+
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>		
 					
 				<section>			
-					<h2 align="left">Project Management with the  <img src="imgs/osf-logo.png" width="10%" height="10%"> <br/>Open Science Framework</h2>
-
-					<ul>
-						<li><span style="color: #63d297;">Wiki</span>: document your lab procedures, standards, etc. </li>
-						<li><span style="color: #63d297;">Collaborators</span>: add collaborators of various levels to different parts of your project</li>
-						<li><span style="color: #63d297;">Components</span>: sub-projects to organize different parts of your research</li>
-						<li><span style="color: #63d297;">Version Control</span>: upload files of the same name & OSF will track your versions! </li>
-						<li><span style="color: #63d297;">Add-Ons</span>: use OSF to bring together tools you use | <a href="https://github.com/ViDA-NYU/reproducibility-news/commit/c13a87dc56e13ba0a80d5988129fad5fbf08e04f">GitHub</a></li>
-						<li><span style="color: #63d297;">Registrations</span>: when you have an unchanging version of your project, register it & get a DOI!</li>
-					</ul>
+					<h2>Managing Files 2: Making a README</h2>
 					
+					<ol>
+						<li>Open your text editor and create a new file named readme.html</li>
+						<li>Save the file in the directory you want to annotate or describe.</li>
+						<li>Add the following to the readme.html file (or alternatively, grab the template):</li>
+					</ol>
+
+<pre><code>&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;My Annotated File Directory&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;My Annotated File Directory&lt;/h1&gt;
+&lt;h2&gt;&lt;a href=&quot;#&quot;&gt;File Name&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is an annotation&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+						
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>		
+					
+				<section>			
+					<h2>Managing Files 2: Making a README</h2>
+					
+						<p>For every file in your directory, add an annotation enclosed in the &lt;p&gt; tags and replace the # in the &lt;a&gt; tags with the full path to that filename. Replace the words <mark>File Name</mark> with the file name you wish to annotate. </p>
+					
+					<img src="imgs/htmlREADME1.png">
+
 					<!--SPEAKER NOTES-->
 					<aside class="notes">
 						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
 					</aside>
 				</section>
+				
+				<section>			
+					<h2>Managing Files 2: Automating a README (Windows)</h2>
 					
+					<p>Dynamically create that readme file using a script:</p>
+
+					<ol>
+						<li>Place the script <a href="https://osf.io/hgck9/">toHTML.bat</a> in the directory where we renamed files</li>
+						<li>Go to the Windows Start Menu and type <mark>run cmd</mark> Your command line should pop up! </li>
+						<li>Change working directory on the command line to the folder containing the files you want to change. </li>
+						<li>Type <mark>toHTML.bat</mark> and hit enter. </li>
+					</ol>
+					
+					<p>Look for that readme.html file in the directory, and change the annotation in your text editor as before.</p>
+
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>	
+				
+				<section>			
+					<h2>Managing Files 2: Automating a README (Windows)</h2>
+					
+					<p>Let’s test out a few more cool scripts to generate readme in other formats!</p>
+				
+					<ol>
+						<li>Download <a href="https://osf.io/censw/">toCSV.bat</a> & <a href="https://osf.io/m54dv/">toTXT.bat</a></li>
+						<li>Stay in the command line & in the directory you want to work in! </li>
+						<li>type <mark>toCSV.bat</mark> and hit enter.</li>
+						<li>type <mark>toTXT.bat</mark> and hit enter.</li>
+					</ol>
+
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>	
+					
+				<section>			
+					<h2>Managing Files 2: Automating a README (Mac)</h2>
+		
+					<p>Dynamically create that readme file using a script:</p>
+
+					<ol>
+						<li>Place the script <a href="https://osf.io/prvu4/">readme_maker_MAC</a> in a convenient place like the Desktop</li>
+						<li>Open readme_maker_MAC and edit the line <mark>files=</mark> to set it to the directory you wish to annotate</li>
+						<li>From the Mac Launchpad, look for Terminal and open it.</li>
+						<li>Change working directory by typing <mark>cd Desktop</mark></li>
+						<li>Enter <mark>bash readme_maker > readme.html</mark> and hit enter.</li>
+					</ol>
+
+					<p>Look for that readme html file in the directory, and change the annotation in your text editor as before.</p>
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>	
+				</section>
+				
+				<section>					
+					<div style="width:49%; height:100%; float: left; padding-right: 1px;">
+						<h2> RDM Bage</h2>
+						<p>We’ve created a badging system that gives you all points & a cute ribbon for all the great data management work that you do!<br/><br/>
+							<a href="https://osf.io/85bnv">https://osf.io/85bnv</a></p>
+					</div>
+					
+					<div style="width:49%; height:100%; float: right;">
+						<h2>Upcoming Classes</h2>
+						<p>TBA</p>						
+					</div> 
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
 				</section>
 				
 				<!-- CONCLUSION SLIDE -->
