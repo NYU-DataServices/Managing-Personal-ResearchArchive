@@ -306,13 +306,13 @@
 				</section>
 					
 				<section>			
-					<h2>Managing Files:<br/>More Bulk File Renaming (Mac)</h2>
+					<h2>Managing Files:<br/>More Bulk File Prefix Renaming (Mac)</h2>
 					
 					<ol>
-						<li>Download the <a href="https://osf.io/kf3jg/">file_rename_MAC</a> script in the directory of files you wish rename. You may wish to try it on these <a href="https://osf.io/zk9a3/">sample files</a>.</li><br/>
+						<li>Download the <a href="https://osf.io/5sjpd/">file_rename_MAC</a> script in the directory of files you wish rename. You may wish to try it on these <a href="https://osf.io/zk9a3/">sample files</a>.</li><br/>
 						<li>From the Mac Launchpad, look for Terminal and open it.</li><br/>
-						<li>Change working directory to the folder containing the files you want to change. Type <mark>cd Desktop/directory</mark> to change files in a folder called “directory” on the desktop.</li><br/>
-						<li>type <mark>bash file_rename_MAC</mark></li>
+						<li>Change working directory to the folder containing the files you want to change. For example, type <mark>cd Desktop/directory</mark> to change files in a folder called “directory” on the desktop.</li><br/>
+						<li>type <mark>bash file_rename_MAC.sh</mark></li>
 					</ol>
 
 					<!--SPEAKER NOTES-->
@@ -374,7 +374,7 @@
 				</section>
 				
 				<section>			
-					<h2>Managing Files 2: Automating a README (Windows)</h2>
+					<h2>Managing Files: Automating a README (Windows)</h2>
 					
 					<p>Dynamically create that readme file using a script:</p>
 
@@ -394,7 +394,7 @@
 				</section>	
 				
 				<section>			
-					<h2>Managing Files 2: Automating a README (Windows)</h2><br/>
+					<h2>Managing Files: Automating a README (Windows)</h2><br/>
 					
 					<p>Let’s test out a few more cool scripts to generate readme in other formats!</p><br/>
 				
@@ -412,15 +412,15 @@
 				</section>	
 					
 				<section>			
-					<h2>Managing Files 2: Automating a README (Mac)</h2>
+					<h2>Managing Files: Automating a README (Mac)</h2>
 		
-					<p>Dynamically create that readme file using a script:</p>
+					<p>Dynamically create that html readme file using a script:</p>
 
 					<ol>
 						<li>Place the script <a href="https://osf.io/xknyp/">readme_MAC_html</a> into the folder of files you want to annotate</li>
 						<li>From the Mac Launchpad, look for Terminal and open it.</li>
 						<li>Navigate to the folder containing the files you wish to annotate by typing <mark>cd FOLDER-CONTAINING-FILES</mark></li>
-						<li>Type <mark>bash readme_MAC_html > readme.html</mark> and hit enter.</li>
+						<li>Type <mark>bash readme_MAC_html > readme.html</mark> and hit enter. This examines your directory and outputs the list to a file called readme.html.</li>
 					</ol>
 
 					<p>Look for that readme html file in the directory and edit the annotations as before.</p>
@@ -429,7 +429,34 @@
 					<aside class="notes">
 						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
 					</aside>
-				</section>	
+				</section>
+				
+				<section>			
+					<h2>Managing Files: CSV and TXT files too (Mac)</h2>
+		
+					<ol>
+						<li>To output a text file listing: <a href="https://osf.io/xknyp/">readme_MAC_html</a></li>
+						<li>In your terminal, from the wanted directory type <mark>bash readme_MAC_text > readme.txt</mark></li>
+						<li>To output a csv file listing: <a href="https://osf.io/3v5wb/">readme_MAC_csv</a></li>
+						<li>Type <mark>bash readme_MAC_csv > readme.csv</mark></li>
+					</ol>
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+				
+				<section>			
+					<h2>Bonus: Advanced Command-Line File Transformations for Mac/Linux</h2>
+		
+					Try the web resources <a href="https://datapraxis.github.io/sourcecaster/">Sourcecaster</a>, which lists a series of useful file management commands and explains them in detail.
+					Note that you will need to install some dependency programs on your computer. See: <a href="https://github.com/datapraxis/sourcecaster">https://github.com/datapraxis/sourcecaster</a>
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
 				
 				<section>					
 					<div style="width:49%; height:100%; float: left; padding-right: 1px;">
